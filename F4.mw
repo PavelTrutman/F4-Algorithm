@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="16" minor="1"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="true"><Zoom percentage="75"/></View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="1080" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles><Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Metadata-table>
+    <Metadata-category name="&lt;default&gt;">
+    </Metadata-category>
+    <Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
+        <Metadata-attribute name="Subject" value="&lt;default&gt;"/>
+        <Metadata-attribute name="Author" value="&lt;default&gt;"/>
+        <Metadata-attribute name="Title" value="&lt;default&gt;"/>
+        <Metadata-attribute name="Keywords" value="&lt;default&gt;"/>
+    </Metadata-tag>
+</Metadata-table>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Task>
+</Task><Presentation-Block>
+<Group view="code" labelreference="L90" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#  Implementation of the F4 Algorithm [1] in Maple
+#
+#  By Pavel Trutman, pavel.trutman@fel.cvut.cz, 2015
+#
+#    Center for Machine Perception
+#    Department of Cybernetics
+#    Faculty of Electrical Engineering
+<Font encoding="UTF-8">#    Czech Technical University
+#
+#
+#  [1]  Jean-Charles Faugere. A new efficient algorithm for computing Groebner bases (F4). Journal of pure and applied algebra, 139(1\342\200\2233):61\342\200\22388, July 1999.
+#  [2]  Thomas Becker and Volker Weispfenning. Groebner Bases, A Computational Approach to Commutative Algebra. Number 141 in Graduate Texts in Mathematics. Springer-Verlag, New York, NY, 1993.
+
+</Font></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L176" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">###################
+#  Init sequence  #
+###################
+
+restart;
+with(Groebner): 
+with(LinearAlgebra):
+startTime := time[real]():
+
+</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L89" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#######################################
+#  Main function of the F4 Algorithm  #
+#######################################
+#  [1] Improved Algorithm F4, page 9
+
+F4 := proc (F::list, Sel, ordering) 
+  local G, d, i, j, P, Pd, Ld, Fdtplus, FdTemp, FdtTemp, Fd, Fdt, GNew, h;
+
+  G := [];
+  d := 0;
+  P := {};
+  Fd := [{}];
+  Fdt := [{}];
+
+  #make pairs
+  for i in F do
+    G, P := Update(G, P, i, ordering);
+  end do;
+  
+  
+  while numelems(P) &lt;&gt; 0 do
+    d := d + 1;
+    <Font encoding="UTF-8">printf(&quot;\134n</Font>%12.2f: |P| = %d&quot;, time[real]() - startTime, numelems(P));
+    Pd := Sel(P);
+
+    P := `minus`(P, Pd);
+    Ld := {};
+    for i to numelems(Pd) do
+      Ld := `union`(Ld, {[Pd[i][2], Pd[i][3]], [Pd[i][4], Pd[i][5]]})
+    end do;
+
+    Fdtplus, FdTemp, FdtTemp := Reduction(Ld, G, Fd, Fdt, d, ordering);
+    Fd := [op(Fd), FdTemp];
+    Fdt := [op(Fdt), FdtTemp];
+
+    for i in Fdtplus do
+      #make new pairs
+      G, P := Update(G, P, i, ordering);
+    end do;
+
+  end do;
+
+  <Font encoding="UTF-8">printf(&quot;\134n%12.2f: Computing reduced Groebner basis\134n</Font>&quot;, time[real]() - startTime);
+  RedGroebner(G, ordering);
+end proc:
+
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="code" labelreference="L102" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">########################################
+#  Create a pair from two polynomials  #
+########################################
+#  [1] Definition 2.5, page 5
+
+Pair := proc (f, g, ordering)
+  local ret, LTf, LTg, lcmfg, tf, tg;
+  LTf := LeadingMonomial(f, ordering);
+  LTg := LeadingMonomial(g, ordering);
+  lcmfg := lcm(LTf, LTg);
+  tf := lcmfg/LTf;
+  tg := lcmfg/LTg;
+  ret := [lcmfg, tf, f, tg, g]
+end proc:
+
+</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L103" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#######################################
+#  Selection function - select first  #
+#######################################
+#  [1] Remark 2.5, page 8
+
+Sel := proc (P::set)
+  {P[1]}
+end proc:
+
+</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L155" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">##############################################
+#  Selection function - the normal strategy  #
+##############################################
+#  [1] function Sel, page 13
+
+SelMinDeg := proc (P::set)
+  local p, d, Pd;
+  
+  Pd := {};
+  d := degree(P[1][1]);
+
+  for p in P do
+    if degree(p[1]) &lt; d then 
+      d := degree(p[1]);
+      Pd := {p};
+    elif degree(p[1]) = d then
+      Pd := Pd union {p};
+    end if;
+  end do;
+  <Font encoding="UTF-8">printf(&quot;, Selected %d of degree %d\134n&quot;, numelems(Pd), d);</Font>
+  
+  Pd;
+end proc:
+
+</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L106" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">###############
+#  Reduction  #
+###############
+#  [1] Reduction, page 9
+
+Reduction := proc (L::set, G::list, Fd::list, Fdt::list, d, ordering)
+  local F, TF, HTF, Ft, FtPol, Ftp, i, j, k, l, tmp;
+  
+  printf(&quot;<Font encoding="UTF-8">%12.2f: Symbolic Preprocessing: |L| = %d, |Fd| = %d\134n&quot;, </Font>time[real]() - startTime, numelems(L), add(numelems(Fd[i]), i=1..numelems(Fd)));
+  F, TF := SymbolicPreprocessing(L, G, Fd, Fdt, ordering);
+
+  #make matrix to reduce
+  HTF := LeadingMonomial(F, ordering);
+
+  Ft := [];
+  for i in F do
+    #iterate over polynomials
+    tmp := [];
+    for j in TF do
+      #iterate over monomials
+      tmp := [op(tmp), getCoeff(i, j, ordering)];
+    end do;
+    Ft := [op(Ft), tmp]
+  end do;
+
+  #reduce and get polynomials back
+  Ft := Matrix(Ft);
+  <Font encoding="UTF-8">printf(&quot;%12.2f: Reducing matrix of size %dx%d\134n&quot;, time[real]() - startTime, RowDimension(Ft), ColumnDimension(Ft));</Font>
+  Ft := ReducedRowEchelonForm(Ft);
+  printf(&quot;%12.2f: <Font encoding="UTF-8">Reduction finished\134n&quot;, </Font>time[real]() - startTime);
+  Ft := Multiply(Ft, Vector(TF));
+  Ftp := {};
+  FtPol := [];
+  for i in Ft do
+    #skip 0 polynomials
+    if i &lt;&gt; 0 then
+      FtPol := [op(FtPol), i];
+      if not `in`(LeadingMonomial(i, ordering), HTF) then
+        #add leading monomials if not in HTF
+        Ftp := `union`(Ftp, {i})
+      end if
+    end if
+  end do;
+
+  Ftp, F, FtPol
+end proc:
+
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="code" labelreference="L105" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">############################
+#  Symbolic Preprocessing  #
+############################
+#  [1] Symbolic Preprocessing, page 10
+
+SymbolicPreprocessing := proc (L::set, G::list, Fd::list, Fdt::list, ordering)
+  local F, TF, HTG, i, Done, m, mp, tmpF, tmp, tmpT, tmpl, Li, Ll;
+
+  #make F from pairs
+  F := {};
+  for Li in L do
+    Ll := [Simplify(Li[1], Li[2], Fd, Fdt, ordering)];
+    F := F union {expand(Ll[1]*Ll[2])};
+  end do;
+
+  HTG := LeadingMonomial(G, ordering);
+
+  #fill Done
+  Done := {op(LeadingMonomial(F, ordering))};
+
+  #take all monomial from F
+  TF := {};
+  tmpF := F;
+  while numelems(tmpF) &lt;&gt; 0 do
+    tmp := expand(tmpF[1]);
+    tmpF := `minus`(tmpF, {tmpF[1]});
+    if type(tmp, `+`) then
+      tmp := {op(tmp)};
+      while numelems(tmp) &lt;&gt; 0 do
+        tmpT := [LeadingTerm(tmp[1], ordering)];
+        TF := `union`(TF, {tmpT[2]});
+        tmp := `minus`(tmp, {tmp[1]})
+      end do
+    else
+      TF := `union`(TF, {tmp})
+    end if
+  end do;
+
+  while not verify(TF, Done, 'set') do
+    #pick the first monomial
+    m := sort([op(`minus`(TF, Done))], proc (a, b) options operator, arrow; not TestOrder(a, b, ordering) end proc)[1];
+    Done := `union`(Done, {m});
+    i := 1;
+
+    #find m' such that m = m'*HTG ...
+    while i &lt;= numelems(HTG) do 
+      if TestOrder(HTG[i], m, ordering) and degree(HTG[i])&gt;0 then
+        if lcm(m, HTG[i]) = m then
+          mp:=m/HTG[i];
+          tmpl := [Simplify(mp, G[i], Fd, Fdt, ordering)];
+          tmp := expand(eval(tmpl[1]*tmpl[2]));
+          #add to polynomial to F
+          F := `union`({tmp}, F);
+          #add monomials to TF
+          if type(tmp, `+`) then
+            tmp := {op(tmp)};
+            while numelems(tmp) &lt;&gt; 0 do
+              tmpT := [LeadingTerm(tmp[1], ordering)];
+              TF := `union`(TF, {tmpT[2]});
+              tmp := `minus`(tmp, {tmp[1]})
+            end do
+          else
+            TF := `union`(TF, {tmp})
+          end if;
+          break
+        end if;
+      end if;
+      i := i+1;
+    end do;
+  end do;
+  F, sort([op(TF)], proc (a, b) options operator, arrow; not TestOrder(a, b, ordering) end proc)
+end proc:
+
+</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L131" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#################################################
+#  Get coefficient of polynomial at a monomial  #
+#################################################
+
+getCoeff := proc(polynomial, monomial, ordering)
+  local variable, coe, mon, poly, monom;
+  poly := polynomial;
+  monom := monomial;
+
+  while monom &lt;&gt; 1 do
+    if type(monom, `*`) then
+      variable := [op(monom)][1];
+      poly := coeff(poly, variable);
+      monom := monom/variable;
+    else
+      poly := coeff(poly, monom);
+      monom := 1;
+    end if;
+  end do;
+  coe, mon := TrailingTerm(poly, ordering):
+  if mon &lt;&gt; 1 then
+    coe := 0:
+  end if;
+  coe;
+end proc:
+
+</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L146" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">############
+#  Update  #
+############
+#  [2] UPDATE, Table 5.7, page 230
+
+Update := proc(GOld::list, POld::set, h, ordering)
+  local C, D, E, PNew, GNew, g1, g2, p, HTh, disjoint, condition1, condition2;
+
+  HTh := LeadingMonomial(h, ordering);
+
+  C := {op(GOld)};
+  D := {};
+  while numelems(C) &lt;&gt; 0 do
+    g1 := C[1];
+    C := C minus {g1};
+    condition1 := true;
+    condition2 := true;
+  
+    
+    disjoint := evalb(gcd(HTh, LeadingMonomial(g1, ordering)) = 1);
+    for g2 in C do
+      if divide(lcm(HTh, LeadingMonomial(g1, ordering)), lcm(HTh, LeadingMonomial(g2, ordering))) then
+        condition1 := false;
+        break;
+      end if;
+    end do;
+    for g2 in D do
+      if divide(lcm(HTh, LeadingMonomial(g1, ordering)), lcm(HTh, LeadingMonomial(g2, ordering))) then
+        condition2 := false;
+        break;
+      end if;
+    end do;
+
+    if disjoint or (condition1 and condition2) then 
+      D := D union {g1};
+    end if;
+  end do;
+
+
+  E := {};
+  for g1 in D do
+    if evalb(gcd(HTh, LeadingMonomial(g1, ordering)) &lt;&gt; 1) then
+      E := E union {Pair(h, g1, ordering)};
+    end if;
+  end do;
+
+  PNew := {};
+  for p in POld do
+    if (not divide(p[1], HTh)) or evalb(lcm(LeadingMonomial(p[3], ordering), HTh) = p[1]) or evalb(lcm(HTh, LeadingMonomial(p[5], ordering)) = p[1]) then
+      PNew := PNew union {p};
+    end if;
+  end do;
+
+  PNew := PNew union E;
+  GNew := [];
+  for g1 in GOld do
+    if not divide(LeadingMonomial(g1, ordering), HTh) then
+      GNew := [op(GNew), g1];
+    end if;
+  end do;
+
+  GNew := [op(GNew), h];
+
+  GNew, PNew;
+
+end proc:
+
+</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L152" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">##############
+#  Simplify  #
+##############
+#  [1] Simplify, page 10
+
+Simplify := proc(t, f, Fd::list, Fdt::list, ordering)
+  local u, j, p;
+
+  for u in getDivisors(t) do
+    for j from 1 to numelems(Fd) do
+      if expand(u*f) in Fd[j] then
+        for p in Fdt[j] do
+          if evalb(LeadingMonomial(p, ordering) = LeadingMonomial(expand(u*f), ordering)) then 
+            if u &lt;&gt; t then
+              return Simplify(t/u, p, Fd, Fdt, ordering);
+            else
+              return 1, p
+            end if;
+          end if;
+        end do;
+      end if;
+    end do;
+  end do;
+
+  t, f  
+end proc:
+
+</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L157" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#####################################
+#  Reduction of the Groebner basis  #
+#####################################
+#  [2] REDGROEBNER, Table 5.5, page 216
+
+RedGroebner := proc(G::list, ordering)
+  local H, F, f0, f, h, condition1, condition2, coeff, coefflcm, HNew;
+
+  H := [];
+  F := {op(G)};
+
+  while numelems(F) &lt;&gt; 0 do
+    f0 := F[1];
+    F := F minus {f0};
+    condition1 := true;
+    condition2 := true;
+
+    for f in F do
+      if divide(LeadingMonomial(f0, ordering), LeadingMonomial(f, ordering)) then
+        condition1 := false;
+        break;
+      end if;
+    end do;
+    for h in H do
+      if divide(LeadingMonomial(f0, ordering), LeadingMonomial(h, ordering)) then
+        condition2 := false;
+        break;
+      end if;
+    end do;
+
+    if condition1 and condition2 then
+      H := [op(H), f0];
+    end if;
+  end do;
+
+  #call Reduction on H
+  H := GeneralReduction(H, ordering);
+
+  # uncomment this if no fractions should appear in the resulting Groebner basis
+  #HNew := [];
+  #for h in H do
+  #  coefflcm := 1;
+  #  for coeff in coeffs(h) do
+  #    if type(coeff, fraction) then
+  #      coefflcm := lcm(coefflcm, op(coeff)[2]);
+  #    end if;
+  #  end do;
+  #  h := expand(coefflcm*h);
+  #  HNew := [op(HNew), h];
+  #end do;
+ 
+  #HNew
+  H
+end proc:
+
+</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L158" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">########################################
+#  Reduction of the set of polynomial  #
+########################################
+#  [2] REDUCTION, Table 5.2, page 203
+
+GeneralReduction := proc(P::list, ordering)
+  local Q, QFor, p, term, q, h, tmp, Tp, QNew, ToBreak;
+
+  Q := {op(P)};
+  QFor := Q;
+
+
+  #for polynomials in Q
+  while numelems(QFor) &lt;&gt; 0 do
+    ToBreak := false;
+    p := QFor[1];
+    QFor := QFor minus {p};
+
+    #get terms of p
+    tmp := p;
+    Tp := {};
+    if type(tmp, `+`) then
+      tmp := {op(tmp)};
+      while numelems(tmp) &lt;&gt; 0 do
+        Tp := `union`(Tp, {[LeadingTerm(tmp[1], ordering)]});
+        tmp := `minus`(tmp, {tmp[1]});
+      end do;
+    else
+      Tp := {tmp};
+    end if;
+    
+    #for terms in p
+    for term in Tp do
+      #print(&quot;term&quot;, p, term);
+      
+      #for left polynomials in Q
+      for q in Q minus {p} do
+        #reduce
+        if divide(term[2], LeadingMonomial(q, ordering)) then
+          h := expand(simplify(p - (term[1]/LeadingCoefficient(q, ordering))*(term[2]/LeadingMonomial(q, ordering))*q));
+          Q := Q minus {p};
+          if h &lt;&gt; 0 then
+            Q := Q union {h};
+            QFor := QFor union {h};
+            ToBreak := true;
+            break;
+          end if;
+        end if;
+      end do;
+      if ToBreak then
+        break;
+      end if;
+    end do;
+  end do;
+
+  QNew := [];
+  for q in Q do
+    if not evalb(q in QNew) then
+      QNew := [op(QNew), expand(q/LeadingCoefficient(q, ordering))];
+    end if;
+  end do;
+
+  QNew
+end proc:
+
+</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L153" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">####################################
+#  Get all divisors of a monomial  #
+####################################
+
+
+getDivisors := proc(t)
+  local term, vars, expvar, var, exp, ret, newret, i, j;
+
+  term := t;
+  if type(term, `*`) then
+    vars := [op(term)];
+  elif term &lt;&gt; 1 then
+    vars := [term];
+  else
+    return [];
+  end if;
+
+
+  ret := [1];
+  for expvar in vars do
+    if type(expvar, `^`) then
+      var, exp := op(expvar);
+      newret := [];
+      for i from 0 to exp do
+        for j in ret do
+          newret := [op(newret), j*var^i];
+        end do;
+      end do;
+      ret := newret;
+    else
+      newret := [];
+      for j in ret do
+        newret := [op(newret), j*expvar];
+      end do;
+      ret := [op(ret), op(newret)];
+    end if;
+  end do;
+
+  newret := [];
+  #exclude divisor 1
+  for i in ret do
+    if i &lt;&gt; 1 then 
+      newret := [op(newret), i];
+    end if;
+  end do;
+
+  newret;
+end proc:
+
+</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L174" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#######################################################
+#  An example of calling of the implemented function  #
+#######################################################
+
+startTime := time[real]():
+F4([a*b*c*d - 1, a*b*c + a*b*d + a*c*d + b*c*d, a*b + b*c + a*d + c*d, a + b + c + d], SelMinDeg, tdeg(a, b, c, d));</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">
+        0.00: |P| = 3, Selected 1 of degree 2
+        0.01: Symbolic Preprocessing: |L| = 2, |Fd| = 0
+        0.02: Reducing matrix of size 3x7
+        0.02: Reduction finished
+
+        0.02: |P| = 2, Selected 1 of degree 3
+        0.02: Symbolic Preprocessing: |L| = 2, |Fd| = 3
+        0.03: Reducing matrix of size 4x9
+        0.03: Reduction finished
+
+        0.03: |P| = 2, Selected 2 of degree 4
+        0.03: Symbolic Preprocessing: |L| = 4, |Fd| = 7
+        0.04: Reducing matrix of size 8x12
+        0.05: Reduction finished
+
+        0.05: |P| = 2, Selected 2 of degree 5
+        0.05: Symbolic Preprocessing: |L| = 4, |Fd| = 15
+        0.06: Reducing matrix of size 6x12
+        0.06: Reduction finished
+
+        0.07: |P| = 3, Selected 3 of degree 6
+        0.07: Symbolic Preprocessing: |L| = 6, |Fd| = 21
+        0.08: Reducing matrix of size 10x14
+        0.09: Reduction finished
+
+        0.09: |P| = 2, Selected 2 of degree 7
+        0.09: Symbolic Preprocessing: |L| = 4, |Fd| = 31
+        0.10: Reducing matrix of size 7x10
+        0.10: Reduction finished
+
+        0.10: Computing reduced Groebner basis</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYyLUYsNigtRiw2JC1JJW1zdXBHRiQ2JS1JI21pR0YkNiVRImJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtbkdGJDYkUSIyRicvRj1RJ25vcm1hbEYnLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0ZDLUkjbW9HRiQ2LVEiK0YnRkMvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRk4vJSlzdHJldGNoeUdGTi8lKnN5bW1ldHJpY0dGTi8lKGxhcmdlb3BHRk4vJS5tb3ZhYmxlbGltaXRzR0ZOLyUnYWNjZW50R0ZOLyUnbHNwYWNlR1EsMC4yMjIyMjIyZW1GJy8lJ3JzcGFjZUdGZ24tRiw2KEY/LUZJNi1RMSZJbnZpc2libGVUaW1lcztGJ0ZDRkxGT0ZRRlNGVUZXRlkvRmZuUSYwLjBlbUYnL0ZpbkZgb0Y1RlxvLUY2NiVRImRGJ0Y5RjxGQ0ZILUYsNiQtRjM2JUZib0Y/RkVGQ0ZDLUZJNi1RIixGJ0ZDRkwvRlBGO0ZRRlNGVUZXRllGX28vRmluUSwwLjMzMzMzMzNlbUYnLUYsNiotRjY2JVEiYUYnRjlGPEZIRjVGSC1GNjYlUSJjRidGOUY8RkhGYm9GQ0Zpby1GLDYqLUYsNiZGNUZcby1GMzYlRmRwRj9GRUZDRkgtRiw2JkZbcUZcb0Zib0ZDLUZJNi1RKCZtaW51cztGJ0ZDRkxGT0ZRRlNGVUZXRllGZW5GaG4tRiw2JkY1RlxvRmdvRkNGX3EtRiw2JC1GMzYlRmJvLUZANiRRIjNGJ0ZDRkVGQ0ZDRmlvLUYsNiotRiw2JkY1RlxvLUYzNiVGYm8tRkA2JFEiNEYnRkNGRUZDRkgtRiw2JC1GMzYlRmJvLUZANiRRIjVGJ0ZDRkVGQ0ZfcUY1Rl9xRmJvRkNGaW8tRiw2Ki1GLDYmLUYzNiVGZHBGaHFGRUZcb0Znb0ZDRkgtRiw2JkZbcUZcb0ZmcUZDRl9xRmRwRl9xRmJvRkNGaW8tRiw2LC1GLDYmRl9yRlxvRltxRkNGSC1GLDYmRjVGXG9GZHBGQ0ZfcS1GLDYmRjVGXG9GYm9GQ0ZILUYsNiZGZHBGXG9GYm9GQ0ZfcS1GLDYmRj9GXG9GZ29GQ0ZDRmlvLUYsNi8tRkk2LVEqJnVtaW51czA7RidGQ0ZMRk9GUUZTRlVGV0ZZRmVuRmhuLUZANiRRIjFGJ0ZDRkgtRiw2KEY1RlxvRmRwRlxvRmdvRkNGSC1GLDYmRltxRlxvRmdvRkNGX3EtRiw2JkY1RlxvRmZxRkNGSC1GLDYmRmRwRlxvRmZxRkNGX3EtRiw2JEZfckZDRkMvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRk5GQ0ZDLyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYn">NyksKCokSSJiRzYiIiIjIiIiKiZGJUYoSSJkR0YmRihGJyokRipGJ0YoLCpJImFHRiZGKEYlRihJImNHRiZGKEYqRigsKiomRiVGKEYuRidGKComRi5GJ0YqRihGKComRiVGKEYqRichIiIqJEYqIiIkRjMsKiomRiVGKEYqIiIlRigqJEYqIiImRihGJUYzRipGMywqKiZGLkY1RipGJ0YoKiZGLkYnRipGNUYoRi5GM0YqRjMsLComRipGOEYuRidGKComRiVGKEYuRihGKEYpRjMqJkYuRihGKkYoRihGKyEiIywuRjNGKCooRiVGKEYuRihGKkYnRigqJkYuRidGKkYnRigqJkYlRihGKkY1RjMqJkYuRihGKkY1RigqJEYqRjhGMw==</Equation></Text-field>
+</Output>
+</Group>
+<Group view="code" labelreference="L170" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#################################################################################
+#  An example of calling of the default function implemented by J. Ch. Faugere  #
+#################################################################################
+
+infolevel[GroebnerBasis] := 5:
+Groebner[Basis]([a*b*c*d - 1, a*b*c + a*b*d + a*c*d + b*c*d, a*b + b*c + a*d + c*d, a + b + c + d], tdeg(a, b, c, d), method=fgb);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">-&gt; FGb
+ domain: rat_int_cof
+Set offset primes to 0/20000
+
+Lin Bk ignored [NEW lib]/S:0 -&gt; 8/
+[2](3x7)100%/
+[3](5x10)100%/
+[4](8x12)100%/
+[5](6x12)100%/
+[6](11x16)100%/
+[7](8x11)100%/
+
+Mingbasis2
+(7x24)100%/restore Z1 Copy 80.00 for 24/30 exposants
+ {done}
+SWAP Z1/2 Memory usage (estimate):  0.000
+ 7 polynomials, 30 terms
+ total time:         0.012 sec
+------------------------------</Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYyLUYsNiotSSNtaUdGJDYlUSJhRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEiK0YnL0Y4USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGQi8lKXN0cmV0Y2h5R0ZCLyUqc3ltbWV0cmljR0ZCLyUobGFyZ2VvcEdGQi8lLm1vdmFibGVsaW1pdHNHRkIvJSdhY2NlbnRHRkIvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0ZRLUYxNiVRImJGJ0Y0RjdGOi1GMTYlUSJjRidGNEY3RjotRjE2JVEiZEYnRjRGN0Y+LUY7Ni1RIixGJ0Y+RkAvRkRGNkZFRkdGSUZLRk0vRlBRJjAuMGVtRicvRlNRLDAuMzMzMzMzM2VtRictRiw2KC1GLDYkLUklbXN1cEdGJDYlRlQtSSNtbkdGJDYkUSIyRidGPi8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGPkY6LUYsNihGZm8tRjs2LVExJkludmlzaWJsZVRpbWVzO0YnRj5GQEZDRkVGR0ZJRktGTUZbby9GU0Zcb0ZURl9wRlpGPkY6LUYsNiQtRmRvNiVGWkZmb0Zqb0Y+Rj5GZ24tRiw2Ki1GLDYmRlRGX3AtRmRvNiVGV0Zmb0Zqb0Y+RjotRiw2JkZbcUZfcEZaRj4tRjs2LVEoJm1pbnVzO0YnRj5GQEZDRkVGR0ZJRktGTUZPRlItRiw2JkZURl9wRmVwRj5GX3EtRiw2JC1GZG82JUZaLUZnbzYkUSIzRidGPkZqb0Y+Rj5GZ24tRiw2Ly1GOzYtUSomdW1pbnVzMDtGJ0Y+RkBGQ0ZFRkdGSUZLRk1GT0ZSLUZnbzYkUSIxRidGPkY6LUYsNihGVEZfcEZXRl9wRmVwRj5GOi1GLDYmRltxRl9wRmVwRj5GX3EtRiw2JkZURl9wRmZxRj5GOi1GLDYmRldGX3BGZnFGPkZfcS1GLDYkLUZkbzYlRlotRmdvNiRRIjRGJ0Y+RmpvRj5GPkZnbi1GLDYqLUYsNiZGVEZfcEZdc0Y+RjotRiw2JC1GZG82JUZaLUZnbzYkUSI1RidGPkZqb0Y+Rl9xRlRGX3FGWkY+RmduLUYsNiotRiw2Ji1GZG82JUZXRmhxRmpvRl9wRmVwRj5GOi1GLDYmRltxRl9wRmZxRj5GX3FGV0ZfcUZaRj5GZ24tRiw2LC1GLDYmRl1zRl9wRltxRj5GOi1GLDYmRlRGX3BGV0Y+Rl9xLUYsNiZGVEZfcEZaRj5GOi1GLDYmRldGX3BGWkY+Rl9xLUYsNiZGZm9GX3BGZXBGPkY+LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0ZCRj5GPi8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJw==">NyksKkkiYUc2IiIiIkkiYkdGJUYmSSJjR0YlRiZJImRHRiVGJiwoKiRGJyIiI0YmKiZGJ0YmRilGJkYsKiRGKUYsRiYsKiomRidGJkYoRixGJiomRihGLEYpRiZGJiomRidGJkYpRiwhIiIqJEYpIiIkRjMsLkYzRiYqKEYnRiZGKEYmRilGLEYmKiZGKEYsRilGLEYmKiZGJ0YmRilGNUYzKiZGKEYmRilGNUYmKiRGKSIiJUYzLCoqJkYnRiZGKUY8RiYqJEYpIiImRiZGJ0YzRilGMywqKiZGKEY1RilGLEYmKiZGKEYsRilGNUYmRihGM0YpRjMsLComRilGPEYoRixGJiomRidGJkYoRiZGJkYtRjMqJkYoRiZGKUYmRiZGLiEiIw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L175" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Worksheet>
